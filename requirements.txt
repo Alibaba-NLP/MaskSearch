@@ -1,0 +1,5 @@
+dashscope
+openai
+tqdm
+hanziconv
+transformers
