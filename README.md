@@ -1,10 +1,10 @@
-# MASKSEARCH: A Universal Pre-Training Framework to Enhance Agentic Search Capability
+# MaskSearch: A Universal Pre-Training Framework to Enhance Agentic Search Capability
 
 ![](https://img.shields.io/badge/version-1.0.0-blue)[![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)[![arxiv badge](https://img.shields.io/badge/arxiv-2505.20285-red)](https://arxiv.org/abs/2505.20285)
 
 ## 🚀 Introduction
 
-- We propose **MASKSEARCH**, a novel pre-training framework to further enhance the **universal search capability of agents**.
+- We propose **MaskSearch**, a novel pre-training framework to further enhance the **universal search capability of agents**.
 - We introduce the **Retrieval Augmented Mask Prediction (RAMP) task**, where the model learns to leverage search tools to fill masked spans on a large number of pre-training data, thus acquiring universal retrieval and reasoning capabilities for LLMs.
 - We combine agent-based and distillation-based methods to generate training data, starting with a multi-agent system consisting of a planner, rewriter, observer, and followed by a self-evolving teacher model.
 - Extensive experiments demonstrate that **MaskSearch** significantly enhances the performance of LLM-based search agents on both in-domain and out-of-domain downstream tasks.
@@ -15,7 +15,7 @@
 ## 💡 Performance
 ![performance](img/tab-main.png)
 
-## 🛠 Running MASKSEARCH
+## 🛠 Running MaskSearch
 
 Before running, please replace the placeholder with your own Qwen key and Google_search key in `src/RAMP/model.py`, `src/multi_agent/model.py` and `src/multi_agent/web_news_get.py`.
 ```python
@@ -63,7 +63,7 @@ This work is implemented based on [ChineseWiki](https://github.com/mattzheng/Chi
 
 ```bigquery
 @article{wu2025masksearchuniversalpretrainingframework,
-      title={MASKSEARCH: A Universal Pre-Training Framework to Enhance Agentic Search Capability}, 
+      title={MaskSearch: A Universal Pre-Training Framework to Enhance Agentic Search Capability}, 
       author={Weiqi Wu and Xin Guan and Shen Huang and Yong Jiang and Pengjun Xie and Fei Huang and Jiuxin Cao and Hai Zhao and Jingren Zhou},
       year={2025},
       eprint={2505.20285},
