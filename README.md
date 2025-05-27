@@ -1,6 +1,6 @@
 # MASKSEARCH: A Universal Pre-Training Framework to Enhance Agentic Search Capability
 
-![](https://img.shields.io/badge/version-1.0.0-blue)[![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+![](https://img.shields.io/badge/version-1.0.0-blue)[![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)[![arxiv badge](https://img.shields.io/badge/arxiv-2505.20285-red)](https://arxiv.org/abs/2505.20285)
 
 ## 🚀 Introduction
 
@@ -53,8 +53,22 @@ python cot_construct.py \
 ```
 
 ### Step 3. Training with SFT/RL 
-After generating the data, the third step is to use the data for training. For SFT, you can refer to the training process of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory); for RL, you can refer to [Search-R1](https://github.com/PeterGriffinJin/Search-R1).
+After generating the data, the third step is to use the data for training. For SFT, you can refer to the training process of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory); for RL, you can refer to [Search-R1](https://github.com/PeterGriffinJin/Search-R1) and [ZeroSearch](https://github.com/Alibaba-NLP/ZeroSearch).
 
 
 ## 🙏 Acknowledgements
 This work is implemented based on [ChineseWiki](https://github.com/mattzheng/ChineseWiki), [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), and [verl](https://github.com/volcengine/verl). We greatly appreciate their valuable contributions to the community.
+
+## 📝 Citation
+
+```bigquery
+@article{wu2025masksearchuniversalpretrainingframework,
+      title={MASKSEARCH: A Universal Pre-Training Framework to Enhance Agentic Search Capability}, 
+      author={Weiqi Wu and Xin Guan and Shen Huang and Yong Jiang and Pengjun Xie and Fei Huang and Jiuxin Cao and Hai Zhao and Jingren Zhou},
+      year={2025},
+      eprint={2505.20285},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.20285}, 
+}
+```
